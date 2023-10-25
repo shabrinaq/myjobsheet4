@@ -1,0 +1,21 @@
+Algorithm: NotebooksPurchasePrice24
+{input price, quantity and calculate the discount and total price}
+
+Declaration:
+price, quantity: int
+discount=0.1, totalPrince, purchasePrice, totalDiscount : double
+
+Description:
+print "Input price!"
+read price
+print "Input quantity!"
+read quantity
+totalPrice = price * quantity
+totalDiscount=totalPrice*discount
+purchasePrice= totalPrice - totalDiscount
+print "The total discount is "
+print totalDiscount
+print "The Purchase Price is "
+print purchasePrice
+
+
